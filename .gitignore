@@ -21,3 +21,4 @@ yarn-error.log
 /public/storage
 .vscode
 *.log
+app/Services/Gateway/stripe/stripe-php/
