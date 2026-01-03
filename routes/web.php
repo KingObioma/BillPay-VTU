@@ -68,7 +68,7 @@ Route::get('removeStatus', function () {
 
 
 Route::get('payment/view/{utr}', 'Api\V1\PaymentController@paymentView')->name('paymentView');
-Route::match(['get', 'king'], 'success', [PaymentController::class, 'success'])->name('success');
+Route::match(['get', 'post'], 'success', [PaymentController::class, 'success'])->name('success');
 Route::match(['get', 'post'], 'failed', [PaymentController::class, 'failed'])->name('failed');
 Route::match(['get', 'post'], 'payment/{code}/{trx?}/{type?}', [PaymentController::class, 'gatewayIpn'])->name('ipn');
 Route::post('/khalti/payment/verify/{trx}', [khaltiPaymentController::class, 'verifyPayment'])->name('khalti.verifyPayment');
