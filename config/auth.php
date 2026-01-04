@@ -81,10 +81,10 @@ return [
 			'model' => App\Models\Admin::class,
 		],
 
-        'users' => [
-            'driver' => 'database',
-            'table' => 'users',
-        ],
+        // 'users' => [
+        //     'driver' => 'database',
+        //     'table' => 'users',
+        // ],
     ],
 
     /*
