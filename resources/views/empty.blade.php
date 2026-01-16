@@ -6,7 +6,5 @@
 		</div>
 		<div
 			class="empty-state__message">@lang('No records has been added yet.')</div>
-			<div
-			class="empty-state__message">@lang('Few records has been added yet.')</div>
 	</div>
 </div>
