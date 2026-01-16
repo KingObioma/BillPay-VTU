@@ -28,7 +28,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
 		Route::get('dashboard', 'Api\V1\HomeController@dashboard');
 
 		Route::get('transaction', 'Api\V1\HomeController@transaction');
-		Route::get('ktransaction', 'Api\V1\HomeController@transaction');
+		Route::get('transaction', 'Api\V1\HomeController@transactions');
 		Route::get('transaction/search', 'Api\V1\HomeController@transactionSearch');
 
 		Route::get('support-ticket/list', 'Api\V1\SupportTicketController@ticketList');
