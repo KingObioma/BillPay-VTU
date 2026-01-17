@@ -28,6 +28,7 @@ class AdminProfileController extends Controller
 			$purifiedData['profile_picture'] = $request->profile_picture;
 			$validator = Validator::make($purifiedData, [
 				'name' => 'required|min:3|max:100|string',
+				'surname' => 'required|min:3|max:100|string',
 				'username' => 'required|min:3|max:100|alpha_dash',
 				'email' => 'required|email|max:100',
 				'city' => 'required|min:3|max:32|string',
