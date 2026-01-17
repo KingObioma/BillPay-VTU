@@ -19,7 +19,7 @@ class NotifyController extends Controller
 	public function edit($id)
 	{
 		$notifyTemplate = NotifyTemplate::findOrFail($id);
-		$languages = Language::orderBy('short_name')->get();
+		$languages = Language::orderBy('short_name')->first();
 		if ($notifyTemplate->notify_for == 0) {
 			foreach ($languages as $lang) {
 				$checkTemplate = NotifyTemplate::where('template_key', $notifyTemplate->template_key)->where('language_id', $lang->id)->count();
