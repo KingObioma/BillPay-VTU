@@ -51,11 +51,7 @@ class AdminProfileController extends Controller
 
 			$admin->name = $purifiedData->name;
 			$admin->email = $purifiedData->email;
-			$admin->username = $purifiedData->username;
-			$adminProfile->city = $purifiedData->city;
-			$adminProfile->state = $purifiedData->state;
-			$adminProfile->phone = $purifiedData->phone;
-			$adminProfile->address = $purifiedData->address;
+		
 
 			if ($request->file('profile_picture') && $request->file('profile_picture')->isValid()) {
 				$extension = $request->profile_picture->extension();
