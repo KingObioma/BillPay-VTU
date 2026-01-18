@@ -29,6 +29,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 		Route::get('transaction', 'Api\V1\HomeController@transaction');
 		Route::get('transaction/search', 'Api\V1\HomeController@transactionSearch');
+		Route::post('transaction/search', 'Api\V1\HomeController@transactionSearch');
 
 		Route::get('support-ticket/list', 'Api\V1\SupportTicketController@ticketList');
 		Route::post('support-ticket/create', 'Api\V1\SupportTicketController@ticketCreate');
