@@ -60,7 +60,6 @@ return [
 		],
 		"internet" => [
 			"name" => "Internet",
-			"bulletin" => "Internet",
 			"image" => "internet.png"
 		],
 		"tv" => [
