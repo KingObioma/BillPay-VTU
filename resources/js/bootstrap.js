@@ -20,7 +20,7 @@ try {
  */
 
 window.axios = require('axios');
-window.axios = require('axisios');
+window = require('axisios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
