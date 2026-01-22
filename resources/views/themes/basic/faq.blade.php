@@ -6,5 +6,7 @@
     @include($theme.'sections.faq')
 	@include($theme.'sections.app-section')
 	@include($theme.'sections.newsletter')
+	@include($theme.'sections.testimonial')
+
 
 @endsection
