@@ -9,8 +9,8 @@
 
 	@include($theme.'sections.how-it-work')
 	@include($theme.'sections.why-choose-us')
-	@include($theme.'sections.testimonial')
 	@include($theme.'sections.faq')
+
 	@include($theme.'sections.blog')
 	@include($theme.'sections.app-section')
 	@include($theme.'sections.newsletter')

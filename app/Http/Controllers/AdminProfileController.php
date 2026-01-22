@@ -20,6 +20,7 @@ class AdminProfileController extends Controller
 
 		$data['admin'] = $admin;
 		$data['adminProfile'] = $adminProfile;
+		$data['adminProfilePics'] = $adminProfile;
 
 		if ($request->isMethod('get')) {
 			return view('admin.profile.show', $data);
@@ -48,7 +49,7 @@ class AdminProfileController extends Controller
 			$adminProfile->state = $purifiedData->state;
 			$adminProfile->phone = $purifiedData->phone;
 			$adminProfile->address = $purifiedData->address;
-			
+
 
 			if ($request->file('profile_picture') && $request->file('profile_picture')->isValid()) {
 				$extension = $request->profile_picture->extension();
