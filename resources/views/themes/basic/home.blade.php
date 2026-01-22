@@ -13,7 +13,6 @@
 	@include($theme.'sections.why-choose-us')
 	@include($theme.'sections.testimonial')
 	@include($theme.'sections.faq')
-    {{-- No --}}
 
 
 	@include($theme.'sections.blog')
