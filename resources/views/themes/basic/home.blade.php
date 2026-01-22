@@ -5,7 +5,6 @@
 
 	@include($theme.'sections.hero')
 	@include($theme.'sections.feature')
-    {{-- No --}}
 	@include($theme.'sections.about-us')
 
 	@include($theme.'sections.how-it-work')
