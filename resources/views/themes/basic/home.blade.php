@@ -12,7 +12,6 @@
     {{-- No --}}
 	@include($theme.'sections.why-choose-us')
 	@include($theme.'sections.testimonial')
-    {{-- No content --}}
 	@include($theme.'sections.faq')
     {{-- No --}}
 
