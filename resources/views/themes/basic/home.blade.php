@@ -16,7 +16,6 @@
 
 
 	@include($theme.'sections.blog')
-    {{-- No --}}
 	@include($theme.'sections.app-section')
     {{-- No buttons--}}
 	@include($theme.'sections.newsletter')
