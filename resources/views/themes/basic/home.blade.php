@@ -9,12 +9,9 @@
 	@include($theme.'sections.about-us')
 
 	@include($theme.'sections.how-it-work')
-    {{-- No --}}
 	@include($theme.'sections.why-choose-us')
 	@include($theme.'sections.testimonial')
 	@include($theme.'sections.faq')
-
-
 	@include($theme.'sections.blog')
 	@include($theme.'sections.app-section')
 	@include($theme.'sections.newsletter')
