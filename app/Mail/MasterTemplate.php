@@ -20,6 +20,7 @@ class MasterTemplate extends Mailable implements ShouldQueue
 	{
 		$this->subject = $subject;
 		$this->message = $message;
+		$this->footer = $footer;
 		$this->notify_email = $notify_email;
 		$this->emailName = $emailName;
 	}

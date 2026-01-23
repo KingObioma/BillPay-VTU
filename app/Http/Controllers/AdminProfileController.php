@@ -20,7 +20,6 @@ class AdminProfileController extends Controller
 
 		$data['admin'] = $admin;
 		$data['adminProfile'] = $adminProfile;
-		$data['adminProfilePictue'] = $adminProfile;
 
 		if ($request->isMethod('get')) {
 			return view('admin.profile.show', $data);
