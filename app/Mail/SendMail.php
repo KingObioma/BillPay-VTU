@@ -14,7 +14,6 @@ class SendMail extends Mailable
 	public $from_email;
 	public $site_title;
 	public $subject;
-	public $footer;
 	public $message;
 
 	/**
@@ -28,7 +27,6 @@ class SendMail extends Mailable
 		$this->from_email = $email_from;
 		$this->site_title = ($fromName) ?: $basic->site_title;
 		$this->subject = $subject;
-		$this->footer = $footer;
 		$this->message = $message;
 	}
 
