@@ -13,7 +13,6 @@ class MasterTemplate extends Mailable implements ShouldQueue
 
 	public $subject;
 	public $message;
-	public $send;
 	public $notify_email;
 	public $emailName;
 
