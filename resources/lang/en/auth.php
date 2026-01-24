@@ -14,7 +14,7 @@ return [
     */
 
     'failed' => 'These credentials do not match our records.',
-    'incorrect' => 'These credentials are incorrect.',
+    'incorrect' => 'These credentials are wrong.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
