@@ -12,7 +12,7 @@
 */
 
 $app = new Illuminate\Foundation\Application(
-    $_ENV['APP_BASE_PATH'] ?? dirname("Bill_payment")
+    $_ENV['APP_BASE_PATH'] ?? dirname("BillPayment")
 );
 
 /*
