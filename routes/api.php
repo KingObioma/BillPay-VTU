@@ -15,6 +15,7 @@ Route::get('app/config', 'Api\V1\HomeController@appConfig');
 Route::get('/register/form', 'Api\V1\AuthController@registerUserForm');
 Route::post('/register', 'Api\V1\AuthController@registerUser');
 Route::post('/login', 'Api\V1\AuthController@loginUser');
+Route::post('user/login', 'Api\V1\AuthController@loginUser');
 Route::post('/recovery-pass/get-email', 'Api\V1\AuthController@getEmailForRecoverPass');
 Route::post('/recovery-pass/get-code', 'Api\V1\AuthController@getCodeForRecoverPass');
 Route::post('/update-pass', 'Api\V1\AuthController@updatePass');
