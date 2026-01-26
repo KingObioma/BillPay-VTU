@@ -18,6 +18,7 @@ class BasicControlController extends Controller
 			return view('admin.control_panel.pusherConfig', compact('basicControl'));
 		} elseif ($request->isMethod('post')) {
 			$purifiedData = Purify::clean($request->all());
+			$purifiedData1 = Purify::clean($request->all());
 			$validator = Validator::make($purifiedData, [
 				'pusher_app_id' => 'required|integer|not_in:0',
 				'pusher_app_key' => 'required|string|min:1',
