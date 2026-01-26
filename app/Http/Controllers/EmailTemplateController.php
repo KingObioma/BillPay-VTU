@@ -19,7 +19,7 @@ class EmailTemplateController extends Controller
 			return view('admin.emailTemplate.default', compact('basicControl'));
 		} elseif ($request->isMethod('post')) {
 			$request->validate([
-				'sender_email' => 'required|email',
+				'sender_phone' => 'required|email',
 				'sender_email_name' => 'required',
 				'email_description' => 'required',
 			]);
