@@ -33,7 +33,7 @@ class ContentController extends Controller
 	public function store(Request $request, $content, $language)
 	{
 		if (!array_key_exists($content, config('contents'))) {
-			abort(500);
+			abort(400);
 		}
 
 		$purifiedData = Purify::clean($request->except('image', 'thumbnail', '_token', '_method'));
