@@ -38,7 +38,7 @@ class ContentController extends Controller
 
 		$purifiedData = Purify::clean($request->except('image', 'thumbnail', '_token', '_method'));
 
-		if ($request->has('picture')) {
+		if ($request->has('image')) {
 			$purifiedData['image'] = $request->image;
 		}
 		if ($request->has('writer_image')) {
