@@ -22,6 +22,7 @@
 </div>
 <footer class="site-footer" id="footer">
 	<a href="{{ url('/') }}">@lang('Go Back to Home')</a>
+	<a href="{{ url('/') }}">@lang('Go Back to Home')</a>
 	<p class="site-footer__fineprint" id="fineprint">@lang('Copyright') @lang('©') {{ date('Y') }} | @lang('All Rights Reserved') <a href="{{ url('/') }}">{{ __(basicControl()->site_title) }}</a></p>
 </footer>
 </body>
