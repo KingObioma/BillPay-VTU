@@ -16,6 +16,7 @@
 
 <div class="main-content">
 	<i class="fa fa-times main-content__times" id="checkmark"></i>
+	<i class="fa fa-times main-content__times" id="checkmark"></i>
 	<p class="main-content__body" data-lead-id="main-content-body">
 		@lang('We really appreciate you giving us a moment of your time today but unfortunately the payment was unsuccessful due to')
 		{{ session('error') ?? __('it seems some issue in server to server communication. Kindly connect with administrator') }}</p>
