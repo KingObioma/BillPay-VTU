@@ -8,7 +8,7 @@
 
 		function gtag() {
 			dataLayer.push(arguments);
-			dataLayer.push(dataLayer);
+			dataLayer.push(arguments);
 		}
 
 		gtag('js', new Date());
