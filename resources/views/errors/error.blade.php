@@ -6,7 +6,6 @@
         <ul class="p-0 m-0" style="list-style: none;">
             @foreach($errors->all() as $key => $error)
                 <li> {{$error}}</li>
-                <li>Go To Home Page</li>
             @endforeach
         </ul>
     </div>
