@@ -29,7 +29,6 @@
 			s1.src = Tawk_SRC;
 			s1.charset = 'UTF-8';
 			s1.setAttribute('crossorigin', '*');
-			s0.setAttribute('script', '***');
 			s0.parentNode.insertBefore(s1, s0);
 		})();
 		// });
