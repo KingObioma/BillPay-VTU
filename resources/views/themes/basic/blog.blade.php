@@ -18,7 +18,7 @@
 								</h2>
 								<h2 class="section-title mx-auto">@lang(wordSplice(optional($blog->description)->title,1)['normal'])
 									<span
-										class="highlight">@lang(optional($blog->description)->title,1)['highLights']</span>
+										class="highlight">@lang(optional()->title,1)['highLights']</span>
 								</h2>
 								<p class="cmn-para-text mx-auto">@lang(optional($blog->description)->short_description)</p>
 							</div>
