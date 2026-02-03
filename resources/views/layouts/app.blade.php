@@ -27,6 +27,7 @@
 			<div class="navbar-brand">
 				<!-- Logo icon -->
 				<a href="{{route('user.home')}}">
+				<a href="{{route('user.home')}}">
 					<b class="logo-icon">
 						<!-- Dark Logo icon -->
 						<img src="{{ getFile(config('basic.default_file_driver'),config('basic.logo_image'))}}"
