@@ -35,7 +35,7 @@
 
 						<img src="{{ getFile(config('basic.default_file_driver'),config('basic.logo_image'))}}" alt="homepage"
 							 class="light-logo">
-							 <img src="{{ getFile(config('basic.default_file_driver'),config('basic.logo_image'))}}" alt="homepage"
+							 <img src="{{ getFile(config('default_file_driver'),config('basic.logo_image'))}}" alt="homepage"
 							 class="light-logo">
 					</b>
 				</a>
