@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://fonts.com/css2?family=Nunito:wght@400;600;display">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app') }}">
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
